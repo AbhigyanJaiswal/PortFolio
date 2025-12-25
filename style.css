@@ -122,7 +122,7 @@ section{
     line-height: 1.8;
 }
 .home-img img{
-    width:32vw;
+    width:25vw;
     border-radius:50%;
     box-shadow: 0 0 25px var(--main-color);
     transition:0.4s ease-in-out;
@@ -193,7 +193,7 @@ section{
     background: var(--second-bg-color);
 }
 .about-img img{
-    width:32vw;
+    width:25vw;
     border-radius:  50%;
     box-shadow: 0 0 25px var(--main-color);
     transition:0.4s ease-in-out;
@@ -207,8 +207,17 @@ section{
     font-size: 8rem;
     text-align: left;
 }
+.about-content h3{
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 1rem 0 0.5rem 0;
+    font-weight: 600;
+}
 .about-content p{
     font-size: 1.8rem;
+    text-align: left;
+    line-height: 1.6;
+    margin: 0.5rem 0;
 }
 .about-content .btn{
     margin: 3rem 0;
@@ -246,7 +255,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height:600px;
+    height:500px;
     border-radius: 3rem;
     cursor:pointer;
     border:5px solid transparent;
@@ -301,6 +310,7 @@ section{
     border-radius: 3rem;
     gap: 2rem;
     padding:5rem 2rem;
+    height: 500px;
     overflow : hidden;
     cursor : pointer;
     box-shadow: 0 0 5px var(--main-color);
@@ -419,7 +429,7 @@ section{
         text-align:center;
     }
     .home-img img{
-        width : 56vw;
+        width : 49vw;
 
     }
     .about{
@@ -431,7 +441,7 @@ section{
         margin: 2rem 0;
     }
     .about img{
-        width:52vw;
+        width:45vw;
     }
     .contact form{
         flex-direction: column;
